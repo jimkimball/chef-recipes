@@ -21,10 +21,6 @@ $Location.Copyhere($ZipFolder.items())
   not_if { File.exists?('c:\emacs\bin\runemacs.exe') }
 end
 
-file 'c:\users\jkimball\AppData\Roaming\.emacs' do
-  content '
-(set-background-color "black")
-(set-cursor-color "yellow")
-(set-foreground-color "grey99")
-'
-end
+
+
+
